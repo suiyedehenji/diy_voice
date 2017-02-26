@@ -6,6 +6,8 @@ import android.widget.CompoundButton;
 import android.widget.CompoundButton.OnCheckedChangeListener;
 import android.widget.Toast;
 
+//第一次修改
+
 public class MainActivity extends Activity implements OnCheckedChangeListener {
 
     private SwitchButton mMsgNotifySwitch;
