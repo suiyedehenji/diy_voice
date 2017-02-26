@@ -2,7 +2,6 @@ package com.example.zkw.learningview;
 
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
-import android.widget.Button;
 import android.widget.TextView;
 
 import com.example.zkw.learningview.widget.VolumeView;
@@ -11,7 +10,6 @@ import com.example.zkw.learningview.widget.VolumeView;
  * Created by zkw on 2016/7/26.
  */
 public class MainActivity extends AppCompatActivity implements VolumeView.MoveInterface {
-    private Button btnMode;
     private TextView tvValue;
     private VolumeView moveView;
     @Override
